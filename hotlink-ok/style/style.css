@@ -1,3 +1,7 @@
+#__nuxt,
+#__layout {
+  height: 100%;
+}
 
 .header {
   text-align: center;
@@ -511,7 +515,7 @@ html {
   }
 
   a {
-    color: rgb(206, 65, 255);
+    color: #a239c5;
     ;
     text-decoration: none;
     background-color: transparent;
@@ -519,7 +523,7 @@ html {
   }
 
   a:hover {
-    color: rgb(162, 57, 197);
+    color: #9637b6;
     text-decoration: underline;
   }
 
@@ -2371,14 +2375,14 @@ html {
 
   .btn-primary {
     color: #fff !important;
-    background-color: #CE41FF;
-    border-color: #CE41FF;
+    background-color: #a239c5;
+    border-color: #a239c5;
   }
 
   .btn-primary:hover {
     color: #fff;
-    background-color: #A239C5;
-    border-color: #A239C5;
+    background-color: #CE41FF;
+    border-color: #CE41FF;
   }
 
   .btn-primary:focus,
@@ -9141,4 +9145,3 @@ html {
     background-color: #212529;
     color: #fff;
   }
-
