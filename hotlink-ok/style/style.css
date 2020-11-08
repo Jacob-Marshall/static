@@ -2375,14 +2375,14 @@ html {
 
   .btn-primary {
     color: #fff !important;
-    background-color: #a239c5;
-    border-color: #a239c5;
+    background-color: #a239c5 !important;
+    border-color: #a239c5 !important;
   }
 
   .btn-primary:hover {
     color: #fff;
-    background-color: #CE41FF;
-    border-color: #CE41FF;
+    background-color: #8c33aa !important;
+    border-color: #8c33aa !important;
   }
 
   .btn-primary:focus,
@@ -2622,16 +2622,16 @@ html {
   }
 
   .btn-outline-primary {
-    color: #CE41FF;
+    color: #8c33aa;
     background-color: transparent;
     background-image: none;
-    border-color: #CE41FF;
+    border-color: #8c33aa;
   }
 
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #A239C5;
-    border-color: #A239C5;
+    background-color: #8c33aa;
+    border-color: #8c33aa;
   }
 
   .btn-outline-primary:focus,
@@ -2649,8 +2649,8 @@ html {
   .btn-outline-primary.active,
   .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #CE41FF;
-    border-color: #CE41FF;
+    background-color: #8c33aa;
+    border-color: #8c33aa;
   }
 
   .btn-outline-secondary {
@@ -3062,7 +3062,7 @@ html {
   .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #CE41FF;
+    background-color: #8c33aa;
   }
 
   .dropdown-item.disabled,
@@ -3413,11 +3413,11 @@ html {
 
   .custom-control-input:checked~.custom-control-indicator {
     color: #fff;
-    background-color: #CE41FF;
+    background-color: #8c33aa;
   }
 
   .custom-control-input:focus~.custom-control-indicator {
-    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #CE41FF;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #8c33aa;
   }
 
   .custom-control-input:active~.custom-control-indicator {
@@ -3457,7 +3457,7 @@ html {
   }
 
   .custom-checkbox .custom-control-input:indeterminate~.custom-control-indicator {
-    background-color: #CE41FF;
+    background-color: #8c33aa;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E");
   }
 
@@ -3498,7 +3498,7 @@ html {
   }
 
   .custom-select:focus {
-    border-color: #CE41FF;
+    border-color: #8c33aa;
     outline: none;
   }
 
@@ -4325,8 +4325,8 @@ html {
   .page-item.active .page-link {
     z-index: 2;
     color: #fff;
-    background-color: #CE41FF;
-    border-color: #CE41FF;
+    background-color: #8c33aa;
+    border-color: #8c33aa;
   }
 
   .page-item.disabled .page-link {
@@ -4342,7 +4342,7 @@ html {
     padding: 0.5rem 0.75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #CE41FF;
+    color: #8c33aa;
     background-color: #fff;
     border: 1px solid #ddd;
   }
@@ -4689,7 +4689,7 @@ html {
     height: 1rem;
     line-height: 1rem;
     color: #fff;
-    background-color: #CE41FF;
+    background-color: #8c33aa;
     transition: width 0.6s ease;
   }
 
@@ -4770,8 +4770,8 @@ html {
   .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #CE41FF;
-    border-color: #CE41FF;
+    background-color: #8c33aa;
+    border-color: #8c33aa;
   }
 
   .list-group-flush .list-group-item {
@@ -4802,7 +4802,7 @@ html {
   a.list-group-item-primary:hover,
   button.list-group-item-primary:focus,
   button.list-group-item-primary:hover {
-    color: #A239C5;
+    color: #8c33aa;
     background-color: #9fcdff;
   }
 
@@ -5674,16 +5674,16 @@ html {
   }
 
   .bg-primary {
-    background-color: #CE41FF !important;
+    background-color: #a239c5 !important;
   }
 
   a.bg-primary:focus,
   a.bg-primary:hover {
-    background-color: #a239c5 !important;
+    background-color: #8d33ac !important;
   }
 
   .bg-secondary {
-    background-color: #868e96 !important;
+    background-color: #8c33aa !important;
   }
 
   a.bg-secondary:focus,
@@ -9062,12 +9062,12 @@ html {
   }
 
   .swatch-primary {
-    background-color: #CE41FF;
+    background-color: #a239c5;
     color: #fff;
   }
 
   .swatch-secondary {
-    background-color: #A239C5;
+    background-color: #8c33aa;
     color: #fff;
   }
 
